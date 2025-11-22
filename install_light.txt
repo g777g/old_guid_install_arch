@@ -32,8 +32,13 @@ run script tu install:
 ## alacritty:
 	- mkdir -p .config/alacritty
 	- cp ~/.config/alacritty/alacritty.toml
+## polibar
+	- sudo pacman -S polybar brightnessctl nm-connection-editor networkmanager pulseaudio  pipewire pipewire-pulse bluez bluez-utils blueman playerctl
+
+
 ## install fonts:
-sudo pacman -S nerd-fonts-git 
+	- yay -S nerd-fonts-git 
+	- fc-cache -fv
 
 ## add language:
 	- sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf
@@ -55,22 +60,11 @@ instal GUEST vbox:
 add to boot ly:
 - systemctl enable ly.service
 
-install menu:
-- sudo pacman -S menumaker unzip xarchiver
-
 
 install soft:
 - sudo yay -S google-chrome
 
-add language:
-- sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf
-	Section "InputClass"
-		Identifier "system-keyboard"
-		MatchIsKeyboard "on"
-		Option "XkbLayout" "us,ua"
-		Option "XkbOptions" "grp:alt_shift_toggle"
-	EndSection
-- reboot
+
 
 
 

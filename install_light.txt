@@ -15,7 +15,7 @@ run script tu install:
 
 ## install pakeges:
 	sudo pacmna -S ly xorg xorg-xinit micro mousepad bspwm sxhkd thunar alacritty 
-	polybar git lxappearance bibata-cursor-theme unzip xarchiver 
+	polybar git lxappearance unzip xarchiver 
 
 ## add autostart:
 	cp .xinitrc /home/w22
@@ -71,6 +71,7 @@ add language:
 		Option "XkbOptions" "grp:alt_shift_toggle"
 	EndSection
 - reboot
+
 
 
 

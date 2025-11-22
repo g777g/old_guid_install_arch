@@ -47,6 +47,11 @@ run script tu install:
 	- yay -S light
 	- fc-cache -fv
 
+## install picom
+	- sudo pacman -S pikom
+	- mkdir -p ~/.config/picom/
+	- cp ~/.config/picom/picom.conf
+
 ## add language:
 	- sudo micro /etc/X11/xorg.conf.d/00-keyboard.conf
 		Section "InputClass"
@@ -77,6 +82,7 @@ run script tu install:
 	- micro .config/gtk-3.0/settings.ini
 		[Settings]
 		gtk-theme-name=Nordic-master
+
 
 
 

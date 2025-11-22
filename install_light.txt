@@ -34,7 +34,8 @@ run script tu install:
 	- cp ~/.config/alacritty/alacritty.toml
 ## polibar
 	- sudo pacman -S polybar brightnessctl nm-connection-editor networkmanager pulseaudio  pipewire pipewire-pulse bluez bluez-utils blueman playerctl
-
+	- mkdir -p ~/.config/polybar
+	- cp ~/.config/polybar/config.ini
 
 ## install fonts:
 	- yay -S nerd-fonts-git 
@@ -63,6 +64,7 @@ add to boot ly:
 
 install soft:
 - sudo yay -S google-chrome
+
 
 
 

@@ -33,7 +33,7 @@ run script tu install:
 	- mkdir -p .config/alacritty
 	- cp ~/.config/alacritty/alacritty.toml
 ## polibar
-	- sudo pacman -S polybar brightnessctl nm-connection-editor networkmanager pulseaudio  pipewire pipewire-pulse bluez bluez-utils blueman playerctl ttf-jetbrains-mono-nerd scrot light
+	- sudo pacman -S polybar brightnessctl nm-connection-editor networkmanager pulseaudio  pipewire pipewire-pulse bluez bluez-utils blueman playerctl ttf-jetbrains-mono-nerd scrot light zip unzip
 	- mkdir -p ~/.config/polybar
 	- cp ~/.config/polybar/config.ini
 
@@ -70,6 +70,7 @@ add to boot ly:
 
 install soft:
 - sudo yay -S google-chrome
+
 
 
 

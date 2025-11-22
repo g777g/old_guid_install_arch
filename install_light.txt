@@ -31,7 +31,7 @@ run script tu install:
 
 ## alacritty:
 	- mkdir -p .config/alacritty
-	
+	- cp ~/.config/alacritty/alacritty.toml
 ## install fonts:
 sudo pacman -S nerd-fonts-git 
 
@@ -71,6 +71,7 @@ add language:
 		Option "XkbOptions" "grp:alt_shift_toggle"
 	EndSection
 - reboot
+
 
 
 

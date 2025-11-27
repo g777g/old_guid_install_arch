@@ -33,7 +33,7 @@ run script tu install:
 	- mkdir -p .config/alacritty
 	- cp ~/.config/alacritty/alacritty.toml
 ## polybar
-	- sudo pacman -S polybar brightnessctl nm-connection-editor networkmanager pulseaudio  pipewire pipewire-pulse bluez bluez-utils blueman playerctl ttf-jetbrains-mono-nerd scrot light zip unzip feh
+	- sudo pacman -S polybar brightnessctl nm-connection-editor networkmanager pulseaudio  pipewire pipewire-pulse bluez bluez-utils blueman playerctl ttf-jetbrains-mono-nerd scrot zip unzip feh
 	- mkdir -p ~/.config/polybar
 	- cp ~/.config/polybar/config.ini
 
@@ -81,3 +81,4 @@ run script tu install:
 	- micro .config/gtk-3.0/settings.ini
 		[Settings]
 		gtk-theme-name=Nordic-master
+

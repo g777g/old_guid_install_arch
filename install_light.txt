@@ -15,7 +15,7 @@ run script tu install:
 
 ## install pakeges:
 	sudo pacmna -S ly xorg xorg-xinit micro mousepad bspwm sxhkd thunar alacritty 
-	polybar git lxappearance unzip xarchiver 
+	git
 
 ## add autostart:
 	cp .xinitrc /home/w22
@@ -32,7 +32,7 @@ run script tu install:
 ## alacritty:
 	- mkdir -p .config/alacritty
 	- cp ~/.config/alacritty/alacritty.toml
-## polibar
+## polybar
 	- sudo pacman -S polybar brightnessctl nm-connection-editor networkmanager pulseaudio  pipewire pipewire-pulse bluez bluez-utils blueman playerctl ttf-jetbrains-mono-nerd scrot light zip unzip feh
 	- mkdir -p ~/.config/polybar
 	- cp ~/.config/polybar/config.ini
@@ -72,7 +72,6 @@ run script tu install:
 ## add to boot ly:
 	- systemctl enable ly.service
 
-
 ## install soft:
 	- sudo yay -S google-chrome
 
@@ -82,8 +81,3 @@ run script tu install:
 	- micro .config/gtk-3.0/settings.ini
 		[Settings]
 		gtk-theme-name=Nordic-master
-
-
-
-
-
